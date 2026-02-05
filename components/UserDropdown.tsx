@@ -33,9 +33,9 @@ const UserDropdown = () => {
                         </AvatarFallback>
                     </Avatar>
                     <div className="hidden md:flex-col items-start">
-                        <spam className='text-base font-medium text-gray-400'>
+                        <span className='text-base font-medium text-gray-400'>
                             {user.name}
-                        </spam>
+                        </span>
                     </div>
                 </Button>
             </DropdownMenuTrigger>
